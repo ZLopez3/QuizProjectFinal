@@ -20,13 +20,13 @@ public class Quiz implements Question {
 	private String userName;
 	private Scanner scan = new Scanner(System.in);
 	protected String answer;
-	Calendar cal = Calendar.getInstance();
-	DecimalFormat fmt = new DecimalFormat("##0.00");
+	private Calendar cal = Calendar.getInstance();
+	protected DecimalFormat fmt = new DecimalFormat("##0.00");
 	private long startTime;
 	public Question[] qList = new Question[arraysize];;
-	FileWriter fw; 
-	BufferedWriter bw; 
-	PrintWriter myOutput; 
+	protected FileWriter fw; 
+	protected BufferedWriter bw; 
+	protected PrintWriter myOutput; 
 
 	public Quiz() {
 
