@@ -1,10 +1,10 @@
 package edu.unca.csci201.QuizProject;
 
 
-import java.util.Scanner;
+
 
 public class ShortAnswerQuestion extends Quiz implements Question {
-	private Scanner scan = new Scanner(System.in);
+	
 	protected String userAnswer;
 	protected int choice;
 	public ShortAnswerQuestion() {

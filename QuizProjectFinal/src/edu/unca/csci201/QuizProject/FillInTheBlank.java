@@ -1,6 +1,6 @@
 package edu.unca.csci201.QuizProject;
 
-import java.util.Scanner;
+
 
 public class FillInTheBlank extends Quiz implements Question {
 
@@ -16,7 +16,7 @@ public class FillInTheBlank extends Quiz implements Question {
 	public String getTheQuestionText() {
 		scoreCount = 0;
 		QuestionAMT =0;
-		Scanner scan = new Scanner(System.in);
+		
 
 		choice++;
 

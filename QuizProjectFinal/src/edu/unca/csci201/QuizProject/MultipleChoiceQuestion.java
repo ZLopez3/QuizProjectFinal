@@ -1,11 +1,11 @@
 package edu.unca.csci201.QuizProject;
 
 
-import java.util.Scanner;
+
 
 public class MultipleChoiceQuestion extends Quiz implements Question {
 
-	private Scanner scan = new Scanner(System.in);
+	
 	protected int choice;
 	protected String userAnswer;
 

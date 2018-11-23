@@ -18,7 +18,7 @@ public class Quiz implements Question {
 	private int qAdd = 0;
 	private int index;
 	private String userName;
-	private Scanner scan = new Scanner(System.in);
+	protected Scanner scan = new Scanner(System.in);
 	protected String answer;
 	private Calendar cal = Calendar.getInstance();
 	protected DecimalFormat fmt = new DecimalFormat("##0.00");
@@ -27,6 +27,7 @@ public class Quiz implements Question {
 	protected FileWriter fw; 
 	protected BufferedWriter bw; 
 	protected PrintWriter myOutput; 
+	
 
 	public Quiz() {
 
